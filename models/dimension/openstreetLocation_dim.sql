@@ -7,9 +7,6 @@ Maybe figure out how to put streets together?
 apprtostreet
 NOTE STREET QUESTION FROM DENIS
 
-
-{{ref('OpenStreetLocations')}}
-
 */
 
 
