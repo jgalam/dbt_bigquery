@@ -10,10 +10,11 @@ location as (
 dates as (
     select = from{{ ref('openstreetDate_dim') }}
 ),
+
 join_tbl as(
-    select  openstreetRequest.request_dim_id,
-            openstreetLocation.location_dim_id,
-            dates.date_dim_id as date_dim_id,
+    select  openstreetRequest.request_id,
+            openstreetLocation.location_id,
+            dates.date_dim_id as date_id,
     from all_openstreetrequests
     left join request on all_openstreetrequests.request = request.request
     

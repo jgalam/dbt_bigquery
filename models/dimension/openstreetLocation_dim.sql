@@ -1,6 +1,6 @@
 with openstreet_Location as (
     SELECT DISTINCT
-    Object_ID as location_dim_id,
+    Object_ID as location_id,
     Approved_On_Street,
     Approved_From_Street,
     Approved_To_Street,
