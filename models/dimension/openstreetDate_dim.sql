@@ -1,5 +1,5 @@
 WITH openstreet_Date AS (
-  SELECT
+  SELECT DISTINCT
     Object_ID as date_dim_id,
     apprStartD,
     apprEndDat,
