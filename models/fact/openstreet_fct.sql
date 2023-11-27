@@ -18,4 +18,4 @@ join_tbl as(
     from all_openstreetrequests
     left join request on all_openstreetrequests.request = request.request
     
-)
+);
