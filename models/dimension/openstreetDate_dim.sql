@@ -5,5 +5,5 @@ WITH openstreet_Date AS (
     apprEndDat,
 
   FROM cis-4400-dw-proj.OpenStreetLocations.OpenStreetLocationsT
-
+)
 SELECT * FROM openstreet_Date
