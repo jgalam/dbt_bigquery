@@ -6,6 +6,6 @@ with openstreet_location as (
     Approved_To_Street,
     Borough_Name
    
-    FROM raw.OpenStreetLocations.OpenStreetLocationsT
+    FROM cis-4400-dw-proj.OpenStreetLocations.OpenStreetLocationsT
 )
 select * from openstreet_location
