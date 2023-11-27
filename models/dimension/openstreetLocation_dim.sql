@@ -1,4 +1,4 @@
-with openstreet_location as (
+with openstreet_Location as (
     SELECT DISTINCT
     Object_ID as location_dim_id,
     Approved_On_Street,
@@ -8,4 +8,4 @@ with openstreet_location as (
    
     FROM cis-4400-dw-proj.OpenStreetLocations.OpenStreetLocationsT
 )
-select * from openstreet_location
+select * from openstreet_Location
