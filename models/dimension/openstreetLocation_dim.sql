@@ -21,6 +21,6 @@ with openstreet_location as (
     Approved_To_Street,
     Borough_Name
    
-    FROM cis-4400-dw-proj.OpenStreetLocations
+    FROM raw.jaffle_shop.orders
 )
 select * from openstreet_location
