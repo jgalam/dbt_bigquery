@@ -6,6 +6,6 @@ with openstreet_location as (
     Approved_To_Street,
     Borough_Name
    
-    FROM raw.jaffle_shop.orders
+    FROM raw.OpenStreetLocations.OpenStreetLocationsT
 )
 select * from openstreet_location
