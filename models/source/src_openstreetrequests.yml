@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+- name : Open Street
+  database: cis-4400-dw-proj
+  schema:
+  tables:
+  - name: Open Street
